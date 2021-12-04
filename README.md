@@ -1,25 +1,42 @@
-# What is PubliNews?
+# PubliNews
 
-PubliNews is a news aggregator which works with different public APIs like Facebook or Telegram and others.
+PubliNews is a free and open-source news aggregator which works with different public APIs to grab latest news from your favourite social networks.
 
-# What can it do?
+## What can it do?
 
-PubliNews can:
+PubliNews can give you opportunity to:
 
+- Select sources for grabbing news
 - Grab news for this day from different public networks
-- Give you an editor to change news
-- Have a main page with news that you published
+- Edit to change grabbed news
+- Have a main page with notes that you published
 
-# How it looks like?
+More you can see from ER diagram, Component diagram and use cases, and pictures-sketches in pictures/ folder.
 
-## Main page
+## Contributing
 
-![Main page](./pictures/page_all_news.png)
+If you want to help the project but do not code, the best way to help us is to test our application and make bug reports.
 
-## Editor
+If you want to contribute as a developer, please feel free to create pull requests or contact recent contributors.
 
-![Editor](./pictures/page_editor.png)
+## Building
 
-## Suggestions
+```
+sudo apt install git
 
-![Suggestions](./pictures/page_suggestions.png)
+git clone https://github.com/web-nodejs-kpi/publinews-backend.git
+git clone https://github.com/web-nodejs-kpi/publinews-frontend.git
+
+# Run backend
+cd ./publinews-backend
+npm start
+
+# Run frontend
+cd ./publinews-frontend
+npm start
+
+```
+
+## License
+
+All files in all repositories are licensed under the terms of MIT license.
