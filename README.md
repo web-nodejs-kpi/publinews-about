@@ -13,6 +13,29 @@ PubliNews can give you opportunity to:
 
 More you can see from ER diagram, Component diagram and use cases, and pictures-sketches in pictures/ folder.
 
+Social networks available for news scraping:
+
+- Facebook
+- Twitter
+- Tumblr
+
+## Roadmap
+
+Todo list:
+
+- [x] Database part of application
+  - [x] Set up PostgreSQL database
+  - [x] Create schema
+  - [x] Build Entity-Relation Diagram
+- [x] Server side of application
+  - [x] Work with query-builder Knex.js
+  - [x] Create routes with Express.js
+  - [x] Establish API connection to social networks
+- [x] Frontend side of application
+  - [x] Build basic GUI
+  - [x] Use React.js for rendering
+  - [ ] Add styles to pages
+
 ## Contributing
 
 If you want to help the project but do not code, the best way to help us is to test our application and make bug reports.
